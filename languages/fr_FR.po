@@ -1,0 +1,724 @@
+# Copyright (C) 2018 Themient.com, Asmi Khalil
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Arkam 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-03 22:39+0100\n"
+"PO-Revision-Date: 2018-04-03 22:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: class-arkam.php:276
+#, php-format
+msgid ""
+"Thank you for installing Arkam Lite! Please visit the plugin %s page to "
+"configure it."
+msgstr ""
+"Merci d'avoir installé Arkam Lite! Veuillez visiter la page du plugin %s "
+"pour le configurer."
+
+#: class-arkam.php:276
+msgid "settings"
+msgstr "paramètres"
+
+#: settings.php:25
+msgid "Facebook"
+msgstr "Facebook"
+
+#: settings.php:30
+msgid "Page ID"
+msgstr "Identifiant de la page"
+
+#: settings.php:38
+msgid "App Access Token"
+msgstr "Jeton d’accès de l’app"
+
+#: settings.php:49 settings.php:108 includes/admin/class-admin.php:264
+msgid "Get Access Token"
+msgstr "Obtenir le jeton d'accès"
+
+#: settings.php:58 settings.php:117 settings.php:164 settings.php:203
+#: settings.php:250 settings.php:298 settings.php:344 settings.php:383
+#: settings.php:415 settings.php:439
+msgid "URL"
+msgstr "URL"
+
+#: settings.php:66 settings.php:125 settings.php:172 settings.php:211
+#: settings.php:258 settings.php:306 settings.php:352 settings.php:391
+#: settings.php:423 settings.php:447
+msgid "Label"
+msgstr "Libellé"
+
+#: settings.php:74 settings.php:133 settings.php:180 settings.php:219
+#: settings.php:266 settings.php:314 settings.php:360 settings.php:399
+msgid "Fallback"
+msgstr "Repli"
+
+#: settings.php:84
+msgid "Twitter"
+msgstr "Twitter"
+
+#: settings.php:89 settings.php:336
+msgid "Username"
+msgstr "Identifiant"
+
+#: settings.php:97
+msgid "Access Token (Bearer)"
+msgstr "Jeton d’accès (Bearer)"
+
+#: settings.php:143
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: settings.php:148
+msgid "User Name/ID"
+msgstr "Nom d'utilisateur/ID"
+
+#: settings.php:156
+msgid "Access Token"
+msgstr "Jeton d’accès"
+
+#: settings.php:190
+msgid "Reddit"
+msgstr "Reddit"
+
+#: settings.php:195
+msgid "Subreddit Slug"
+msgstr "Subreddit Slug"
+
+#: settings.php:229
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: settings.php:234
+msgid "Channel ID/Name"
+msgstr "ID de la Chaîne/Nom"
+
+#: settings.php:242
+msgid "Access Token (Public Only)"
+msgstr "Jeton d’accès (Public uniquement)"
+
+#: settings.php:276
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: settings.php:281
+msgid "User ID/Name"
+msgstr "Nom d'utilisateur/Nom"
+
+#: settings.php:325
+msgid ""
+"Dribbble API v1 is deprecated and V2 requires authentication before "
+"requesting anything. So we are now forced to use a hacky method (by "
+"requesting the full page and then parsing its HTML) to fetch followers count "
+"until Dribbble make it possible to fetch it using their new API."
+msgstr ""
+"Dribbble API v1 est obsolète et V2 requiert une authentification avant de "
+"demander quoi que ce soit. Nous sommes donc obligés d'utiliser une méthode "
+"\"hacky\" (en demandant la pleine page et en analysant son code HTML) pour "
+"récupérer le nombre de suiveurs jusqu'à ce que Dribbble permette de le "
+"récupérer en utilisant leur nouvelle API."
+
+#: settings.php:331
+msgid "MixCloud"
+msgstr "MixCloud"
+
+#: settings.php:370
+msgid "Steam"
+msgstr "Steam"
+
+#: settings.php:375
+msgid "Group Name"
+msgstr "Nom du Groupe"
+
+#: settings.php:409
+msgid "Comments"
+msgstr "Commentaires"
+
+#: settings.php:433
+msgid "BuddyPress (Groups)"
+msgstr "BuddyPress (Groupes)"
+
+#: includes/class-counter.php:58
+msgid "K"
+msgstr "K"
+
+#: includes/class-counter.php:63
+msgid "M"
+msgstr "M"
+
+#: includes/class-counter.php:68
+msgid "B"
+msgstr "B"
+
+#: includes/class-counter.php:73
+msgid "T"
+msgstr "T"
+
+#: includes/class-counter.php:79
+msgid "."
+msgstr "."
+
+#: includes/class-renderer.php:74
+#, php-format
+msgid "Powered by %s"
+msgstr "Soutenu par %s"
+
+#: includes/class-renderer.php:74
+msgid "Arkam"
+msgstr "Arkam"
+
+#: includes/class-renderer.php:156
+msgid "Toggle panel:"
+msgstr "Basculer le panneau:"
+
+#: includes/class-shortcode.php:173 includes/class-widget.php:83
+#: includes/admin/class-admin.php:355
+msgid "Layout"
+msgstr "Disposition"
+
+#: includes/class-shortcode.php:176 includes/class-widget.php:85
+#: includes/admin/class-admin.php:356
+msgid "Grid"
+msgstr "Grille"
+
+#: includes/class-shortcode.php:177 includes/class-widget.php:86
+#: includes/admin/class-admin.php:357
+msgid "Mosaic"
+msgstr "Mosaïque"
+
+#: includes/class-shortcode.php:178 includes/class-widget.php:87
+#: includes/admin/class-admin.php:358
+msgid "Block"
+msgstr "Bloc"
+
+#: includes/class-shortcode.php:185 includes/admin/class-admin.php:359
+msgid "Spacing"
+msgstr "Espacement"
+
+#: includes/class-shortcode.php:188 includes/class-widget.php:95
+#: includes/admin/class-admin.php:360
+msgid "0 Pixels"
+msgstr "0 Pixels"
+
+#: includes/class-shortcode.php:189 includes/class-widget.php:96
+#: includes/admin/class-admin.php:361
+msgid "1 Pixel"
+msgstr "1 Pixel"
+
+#: includes/class-shortcode.php:190 includes/class-widget.php:97
+#: includes/admin/class-admin.php:362
+msgid "2 Pixels"
+msgstr "2 Pixels"
+
+#: includes/class-shortcode.php:191 includes/class-widget.php:98
+#: includes/admin/class-admin.php:363
+msgid "3 Pixels"
+msgstr "3 Pixels"
+
+#: includes/class-shortcode.php:192 includes/class-widget.php:99
+#: includes/admin/class-admin.php:364
+msgid "4 Pixels"
+msgstr "4 Pixels"
+
+#: includes/class-shortcode.php:193 includes/class-widget.php:100
+#: includes/admin/class-admin.php:365
+msgid "5 Pixels"
+msgstr "5 Pixels"
+
+#: includes/class-shortcode.php:200 includes/class-widget.php:106
+#: includes/admin/class-admin.php:366
+msgid "Size"
+msgstr "Taille"
+
+#: includes/class-shortcode.php:203 includes/class-widget.php:108
+#: includes/admin/class-admin.php:368
+msgid "Small"
+msgstr "Petit"
+
+#: includes/class-shortcode.php:204 includes/class-widget.php:109
+#: includes/admin/class-admin.php:367
+msgid "Medium"
+msgstr "Moyen"
+
+#: includes/class-shortcode.php:205 includes/class-widget.php:110
+#: includes/admin/class-admin.php:369
+msgid "Large"
+msgstr "Large"
+
+#: includes/class-shortcode.php:212
+msgid "Design"
+msgstr "Design"
+
+#: includes/class-shortcode.php:215
+msgid "Flat"
+msgstr "Flat"
+
+#: includes/class-shortcode.php:216
+msgid "Material"
+msgstr "Material"
+
+#: includes/class-shortcode.php:217
+msgid "3D"
+msgstr "3D"
+
+#: includes/class-shortcode.php:224
+msgid "Style"
+msgstr "Style"
+
+#: includes/class-shortcode.php:227
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/class-shortcode.php:228
+msgid "Bordered"
+msgstr "Avec bordures"
+
+#: includes/class-shortcode.php:229
+msgid "Filled"
+msgstr "Rempli"
+
+#: includes/class-shortcode.php:236
+msgid "Shape"
+msgstr "Forme"
+
+#: includes/class-shortcode.php:239
+msgid "Square"
+msgstr "Carré"
+
+#: includes/class-shortcode.php:240
+msgid "Rounded"
+msgstr "Arrondi"
+
+#: includes/class-shortcode.php:247 includes/class-widget.php:116
+#: includes/admin/class-admin.php:370
+msgid "Color Scheme"
+msgstr "Schéma de Couleur"
+
+#: includes/class-shortcode.php:250 includes/class-widget.php:120
+#: includes/admin/class-admin.php:371
+msgid "Colored"
+msgstr "Coloré"
+
+#: includes/class-shortcode.php:251 includes/class-widget.php:118
+#: includes/admin/class-admin.php:372
+msgid "Light"
+msgstr "Clair"
+
+#: includes/class-shortcode.php:252 includes/class-widget.php:119
+#: includes/admin/class-admin.php:373
+msgid "Dark"
+msgstr "Sombre"
+
+#: includes/class-shortcode.php:259
+msgid "Open links in a new tab?"
+msgstr "Ouvrir les liens dans un nouvel onglet?"
+
+#: includes/class-shortcode.php:266
+msgid "Add NoFollow Tag?"
+msgstr "Ajouter l'attribut NoFollow?"
+
+#: includes/class-shortcode.php:273 includes/admin/class-admin.php:374
+msgid "Extra Class Name"
+msgstr "Nom de Classe Supplémentaire"
+
+#: includes/class-shortcode.php:275
+msgid ""
+"Use this field to add an extra class name and then refer to it in your css "
+"code."
+msgstr ""
+"Utilisez ce champ pour ajouter un nom de classe et ensuite vous référer à "
+"celle-ci dans votre fichier CSS."
+
+#: includes/class-shortcode.php:280
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: includes/class-shortcode.php:282
+msgid "Design Options"
+msgstr "Options de design"
+
+#: includes/class-shortcode.php:298 includes/class-widget.php:62
+msgid "Arkam Lite: Social Counters"
+msgstr "Arkam Lite: Compteurs Sociaux"
+
+#: includes/class-shortcode.php:300
+msgid "Add social media counters."
+msgstr "Ajouter des compteurs de médias sociaux."
+
+#: includes/class-widget.php:63
+msgid "Add social widget with counters."
+msgstr "Ajouter le widget social avec des compteurs."
+
+#: includes/class-widget.php:78
+msgid "Title:"
+msgstr "Titre:"
+
+#: includes/class-widget.php:93
+msgid "spacing"
+msgstr "espacement"
+
+#: includes/admin/class-admin.php:57 includes/admin/class-admin.php:58
+#: includes/admin/class-admin.php:347 includes/admin/class-admin.php:352
+msgid "Arkam Lite"
+msgstr "Arkam Lite"
+
+#: includes/admin/class-admin.php:78
+msgid "Arkam Settings"
+msgstr "Paramètres Arkam"
+
+#: includes/admin/class-admin.php:80
+msgid ""
+"If you change any options here, the plugin cache will be cleared and the "
+"counts will be fetched and cached again on the next page load. So this "
+"process might take a little while to complete depending on the number of "
+"social media channels you have enabled and the number of plugin instances on "
+"your page."
+msgstr ""
+"Si vous modifiez des options ici, le cache du plugin sera effacé et les "
+"compteurs seront récupérés et mis en cache à nouveau lors du chargement de "
+"la page suivante. Ce processus peut donc prendre un peu de temps à se "
+"terminer en fonction du nombre de compteurs que vous avez activés et du "
+"nombre d'instances de plugin sur votre page."
+
+#: includes/admin/class-admin.php:93
+msgid "Cache Results for"
+msgstr "Mettre en Cache les Résultats pour"
+
+#: includes/admin/class-admin.php:98
+msgid "1 Minute"
+msgstr "1 Minute"
+
+#: includes/admin/class-admin.php:99
+msgid "2 Minutes"
+msgstr "2 Minutes"
+
+#: includes/admin/class-admin.php:100
+msgid "5 Minutes"
+msgstr "5 Minutes"
+
+#: includes/admin/class-admin.php:101
+msgid "10 Minutes"
+msgstr "10 Minutes"
+
+#: includes/admin/class-admin.php:102
+msgid "30 Minutes"
+msgstr "30 Minutes"
+
+#: includes/admin/class-admin.php:103
+msgid "1 Hour"
+msgstr "1 Heure"
+
+#: includes/admin/class-admin.php:104
+msgid "5 Hours"
+msgstr "5 Heures"
+
+#: includes/admin/class-admin.php:105
+msgid "1 Day"
+msgstr "1 Jour"
+
+#: includes/admin/class-admin.php:106
+msgid "3 Days"
+msgstr "3 Jours"
+
+#: includes/admin/class-admin.php:107
+msgid "1 Week"
+msgstr "1 Semaine"
+
+#: includes/admin/class-admin.php:122
+msgid "Support us by displaying \"Powered by Arkam\" link?"
+msgstr "Soutenez-nous en affichant le lien \"Soutenu par Arkam\"?"
+
+#: includes/admin/class-admin.php:142 includes/admin/class-admin.php:144
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/admin/class-admin.php:143
+#, php-format
+msgid ""
+"Don't forget to read the plugin documentation to get the most out of Arkam "
+"Lite. An online version can be found %s."
+msgstr ""
+"N'oubliez pas de lire la documentation du plugin pour tirer le meilleur "
+"parti d'Arkam Lite. Une version en ligne peut être trouvée %s."
+
+#: includes/admin/class-admin.php:143
+msgid "here"
+msgstr "ici"
+
+#: includes/admin/class-admin.php:146
+msgid "Need Help?"
+msgstr "Besoin d’aide?"
+
+#: includes/admin/class-admin.php:147
+#, php-format
+msgid ""
+"We provide support for this plugin through our %s. Post your question in the "
+"right section and we will be happy to assist you."
+msgstr ""
+"Nous soutenons ce plugin à travers notre %s. Veuillez poser votre question "
+"dans la section correcte et nous serons heureux de vous aider."
+
+#: includes/admin/class-admin.php:147 includes/admin/class-admin.php:148
+msgid "Support Forum"
+msgstr "Forum d'entraide"
+
+#: includes/admin/class-admin.php:150
+msgid "Have a moment? Please share your review"
+msgstr "Avoir un moment? S'il vous plaît partagez votre avis"
+
+#: includes/admin/class-admin.php:151
+#, php-format
+msgid ""
+"We hope you had a great experience, and we are eager to hear your feedback. "
+"Please take a minute and leave your valuable review on this %s."
+msgstr ""
+"Nous espérons que vous avez vécu une expérience formidable et nous sommes "
+"impatients d'entendre vos commentaires. S'il vous plaît prendre une minute "
+"et laisser votre commentaire précieux sur cette %s."
+
+#: includes/admin/class-admin.php:151
+msgid "page"
+msgstr "page"
+
+#: includes/admin/class-admin.php:152
+msgid "Leave Your Review"
+msgstr "Laissez votre avis"
+
+#: includes/admin/class-admin.php:174
+msgid "Sorry, nonce did not verify."
+msgstr "Désolé, nonce n'a pas vérifié."
+
+#: includes/admin/class-admin.php:179
+msgid "Unauthorized user"
+msgstr "Utilisateur non autorisé"
+
+#: includes/admin/class-admin.php:237
+msgid "Settings Saved"
+msgstr "Réglages enregistrées"
+
+#: includes/admin/class-admin.php:272
+msgid "App ID"
+msgstr "ID de l'application"
+
+#: includes/admin/class-admin.php:276
+msgid "App Secret"
+msgstr "Secret de l'Application"
+
+#: includes/admin/class-admin.php:283
+msgid "Generate"
+msgstr "Générer"
+
+#: includes/admin/class-admin.php:353
+msgid "Arkam Lite Settings"
+msgstr "Paramètres Arkam Lite "
+
+#: includes/admin/class-admin.php:354
+msgid "An error accured."
+msgstr "Une erreur est survenue."
+
+#~ msgid "Arkam: Social Counters"
+#~ msgstr "Arkam: Social Counters"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "Profile ID"
+#~ msgstr "Identifiant profil"
+
+#~ msgid "Google API Key"
+#~ msgstr "Jeton d’accès Google"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid "User/Channel ID"
+#~ msgstr "ID Utilisateur/Chaîne"
+
+#~ msgid "Account Type"
+#~ msgstr "Type de Compte"
+
+#~ msgid "Channel"
+#~ msgstr "Chaîne"
+
+#~ msgid "User"
+#~ msgstr "Utilisateur"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "MailChimp"
+#~ msgstr "MailChimp"
+
+#~ msgid "List ID"
+#~ msgstr "ID de la Liste"
+
+#~ msgid "API Key"
+#~ msgstr "Clé API"
+
+#~ msgid "VKontakte"
+#~ msgstr "VKontakte"
+
+#~ msgid "ID/Screen Name"
+#~ msgstr "ID/Screen Name"
+
+#~ msgid "Community"
+#~ msgstr "Communauté"
+
+#~ msgid "SoundCloud"
+#~ msgstr "SoundCloud"
+
+#~ msgid "Consumer Key"
+#~ msgstr "Clé Consomateur"
+
+#~ msgid "Behance"
+#~ msgstr "Behance"
+
+#~ msgid "App Key/Client ID"
+#~ msgstr "ID de la l'app/ID Client"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Group ID"
+#~ msgstr "ID de Groupe"
+
+#~ msgid "Github"
+#~ msgstr "Github"
+
+#~ msgid "Twitch"
+#~ msgstr "Twitch"
+
+#~ msgid "Channel Name"
+#~ msgstr "Nom du Chaîne"
+
+#~ msgid "Client ID"
+#~ msgstr "ID Client"
+
+#~ msgid "RSS (Feedly)"
+#~ msgstr "RSS (Feedly)"
+
+#~ msgid "Feedly ID"
+#~ msgstr "ID Feedly"
+
+#~ msgid "e.g. feed%2Fhttps%3A%2F%2Fthemient.com%2Ffeed%2F"
+#~ msgstr "exemple. feed%2Fhttps%3A%2F%2Fthemient.com%2Ffeed%2F"
+
+#~ msgid "Users"
+#~ msgstr "Utilisateurs"
+
+#~ msgid "Posts"
+#~ msgstr "Publications"
+
+#~ msgid "BBPress (Forums)"
+#~ msgstr "BBPress (Forums)"
+
+#~ msgid "BBPress (Topics)"
+#~ msgstr "BBPress (Sujets)"
+
+#~ msgid "BBPress (Replies)"
+#~ msgstr "BBPress (Réponses)"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Thank you for using Arkam!"
+#~ msgstr "Merci d'utiliser Arkam!"
+
+#~ msgid "Themient"
+#~ msgstr "Themient"
+
+#~ msgid "Updates"
+#~ msgstr "Mises à jour"
+
+#~ msgid "Automatic Updates"
+#~ msgstr "Mises à jour automatiques"
+
+#~ msgid "Activate your plugin to receive automatic updates when available."
+#~ msgstr ""
+#~ "Activez votre plugin pour recevoir des mises à jour automatiques "
+#~ "lorsqu'elles sont disponibles."
+
+#~ msgid "License Key"
+#~ msgstr "Clé d'activation"
+
+#~ msgid "Enter your license key here"
+#~ msgstr "Entrez votre clé d'activation ici"
+
+#~ msgid "Activate License"
+#~ msgstr "Activer la licence"
+
+#~ msgid "active"
+#~ msgstr "actif"
+
+#~ msgid "Deactivate License"
+#~ msgstr "Désactiver la licence"
+
+#~ msgid "Your license key expired on %s."
+#~ msgstr "La clé d'activation a expiré %s."
+
+#~ msgid "Your license key has been disabled."
+#~ msgstr "Votre clé d'activation a été désactivée."
+
+#~ msgid "Invalid license."
+#~ msgstr "Clé d'activation invalide."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Votre licence n'est pas active pour cette URL."
+
+#~ msgid "This appears to be an invalid license key for Arkam."
+#~ msgstr "Cela semble être une clé d'activation non valide pour Arkam."
+
+#~ msgid "Your license key has reached its activation limit."
+#~ msgstr "Votre clé d'activation a atteint sa limite d'activation."
+
+#~ msgid ""
+#~ "Thanks for activating Arkam. Now you are all set to receive automatic "
+#~ "updates."
+#~ msgstr ""
+#~ "Merci d'avoir activé Arkam. Vous êtes maintenant prêt à recevoir des "
+#~ "mises à jour automatiques."
+
+#~ msgid "Your license key has been deactivated."
+#~ msgstr "Votre clé d'activation a été désactivée."
+
+#~ msgid "Arkam: an error occurred when checking for updates."
+#~ msgstr ""
+#~ "Arkam: une erreur s'est produite lors de la recherche des mises à jour."
+
+#~ msgid ""
+#~ "Hey, there is a new version of Arkam available. Latest version is %s. %s"
+#~ msgstr ""
+#~ "Hey, il y a une nouvelle version d'Arkam disponible. La dernière version "
+#~ "est %s. %s"
+
+#~ msgid "View changelog"
+#~ msgstr "Voir le changelog"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. %2$s Voir version %3$s "
+#~ "détails %4$s."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. %2$s Voir version %3$s "
+#~ "détails %4$s ou %5$s mettre à jour maintenant %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr ""
+#~ "Vous n'êtes pas autorisé à installer les mises à jour pour cette plugin"
+
+#~ msgid "Error"
+#~ msgstr "Error"

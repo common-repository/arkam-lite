@@ -1,0 +1,314 @@
+/**
+ *
+ * Arkam Lite - WordPress Social Media Counter Plugin
+ *
+ * @copyright 2018 Themient.com, Asmi Khalil
+ *
+ */
+
+.ark-lite-social-icons {
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    float: none;
+}
+.ark-lite-social-icons.spacing-1 {
+    margin: -1px;
+}
+.ark-lite-social-icons.spacing-2 {
+    margin: -2px;
+}
+.ark-lite-social-icons.spacing-3 {
+    margin: -3px;
+}
+.ark-lite-social-icons.spacing-4 {
+    margin: -4px;
+}
+.ark-lite-social-icons.spacing-5 {
+    margin: -5px;
+}
+.ark-lite-credit {
+    font-size: 90%;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.ark-lite-social-icons ul {
+    display: table;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+.ark-lite-social-icons.layout-block ul {
+    display: block;
+}
+.ark-lite-social-icons ul li {
+    display: table;
+    width: 95px;
+    width: calc(100%/3);
+    height: 95px;
+    vertical-align: middle;
+    background: none;
+    border: none;
+    float: left;
+    text-align: center;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0;
+}
+.ark-lite-social-icons ul li > a {
+    display: table-row;
+    box-shadow: unset !important;
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+}
+.ark-lite-social-icons.layout-block ul li > a {
+    display: table;
+    width: 100%;
+}
+.ark-lite-social-icons.spacing-1 ul li, .ark-lite-social-icons.spacing-1 .ark-lite-credit {
+    padding: 1px;
+}
+.ark-lite-social-icons.spacing-2 ul li, .ark-lite-social-icons.spacing-2 .ark-lite-credit {
+    padding: 2px;
+}
+.ark-lite-social-icons.spacing-3 ul li, .ark-lite-social-icons.spacing-3 .ark-lite-credit {
+    padding: 3px;
+}
+.ark-lite-social-icons.spacing-4 ul li, .ark-lite-social-icons.spacing-4 .ark-lite-credit {
+    padding: 4px;
+}
+.ark-lite-social-icons.spacing-5 ul li, .ark-lite-social-icons.spacing-5 .ark-lite-credit {
+    padding: 5px;
+}
+.ark-lite-social-icons.layout-block ul li {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    float: none;
+    clear: both;
+}
+.ark-lite-social-icons.layout-block ul li .ark-lite-inner {
+    width: 100% !important;
+}
+.ark-lite-social-icons.layout-block.size-small ul li .ark-lite-inner {
+    height: 40px;
+    line-height: 40px;
+}
+.ark-lite-social-icons.layout-block.size-small ul li .ark-lite-inner > span {
+    height: 40px;
+}
+.ark-lite-social-icons.layout-block.size-small ul li .ark-lite-inner .ark-lite-icon .icon {
+    height: 40px;
+    line-height: 40px;
+}
+.ark-lite-social-icons.layout-block.size-large ul li .ark-lite-inner {
+    height: 66px;
+    line-height: 66px;
+}
+.ark-lite-social-icons.layout-block.size-large ul li .ark-lite-inner > span {
+    height: 66px;
+}
+.ark-lite-social-icons.layout-block.size-large ul li .ark-lite-inner .ark-lite-icon .icon {
+    height: 66px;
+    line-height: 66px;
+}
+.ark-lite-social-icons.size-medium.layout-mosaic ul li:nth-child(5n+1) {
+    width: 240px;
+    width: calc(200%/3);
+}
+.ark-lite-social-icons .ark-lite-inner {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.ark-lite-social-icons.layout-block .ark-lite-inner {
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+.ark-lite-social-icons ul li .ark-lite-inner > span {
+    display: block;
+    position: relative;
+}
+.ark-lite-social-icons.layout-block ul li .ark-lite-inner > span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 55px;
+}
+.ark-lite-social-icons.layout-block ul li .ark-lite-inner .ark-lite-icon {
+    text-align: center;
+    width: 60px;
+}
+.ark-lite-social-icons.layout-block ul li .ark-lite-inner .ark-lite-icon .icon {
+    line-height: 55px;
+}
+.ark-lite-social-icons.layout-block ul li .ark-lite-inner .ark-lite-count {
+    padding: 0 12px;
+}
+.ark-lite-social-icons ul li .ark-lite-text {
+    display: block;
+    font-size: 70%;
+    line-height: 1;
+}
+.ark-lite-social-icons.size-small ul li {
+    width: 70px;
+    width: calc(100%/4);
+    height: 70px;
+    border: 0;
+    margin: 0;
+}
+.ark-lite-social-icons.size-small.layout-mosaic ul li:nth-child(5n+1) {
+    width: 140px;
+    width: calc(100%/2);
+}
+.ark-lite-social-icons.size-small ul li .ark-lite-inner > span {
+    font-size: 13px;
+    line-height: 20px;
+}
+.ark-lite-social-icons.size-small ul li .ark-lite-inner .ark-lite-icon .icon {
+    font-size: 18px;
+    line-height: 20px;
+}
+.ark-lite-social-icons.size-large ul li {
+    width: 130px;
+    width: calc(100%/2);
+    height: 130px;
+}
+.ark-lite-social-icons.size-large ul li .ark-lite-inner > span {
+    font-size: 18px;
+    line-height: 30px;
+}
+.ark-lite-social-icons .ark-lite-count {
+    font-size: 17px;
+    font-weight: normal;
+}
+.ark-lite-social-icons ul li .icon {
+    font-size: 28px;
+    line-height: 30px;
+}
+.ark-lite-social-icons.size-small ul li .ark-lite-inner {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+.ark-lite-social-icons.size-small ul li .icon {
+    font-size: 15px;
+    line-height: 20px;
+}
+.ark-lite-social-icons.size-large ul li .ark-lite-inner {
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+}
+.ark-lite-social-icons.size-large ul li .ark-lite-icon {
+    font-size: 28px;
+    line-height: 26px;
+}
+.ark-lite-social-icons.size-large ul li .icon {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.ark-lite-social-icons.color-light ul li .ark-lite-inner, .ark-lite-social-icons.color-dark ul li .ark-lite-inner:hover, .ark-lite-social-icons.color-dark ul li .ark-lite-inner:focus {
+    border-color: #8c8c8c;
+    color: #8c8c8c;
+}
+.ark-lite-social-icons.color-dark ul li .ark-lite-inner, .ark-lite-social-icons.color-light ul li .ark-lite-inner:hover, .ark-lite-social-icons.color-light ul li .ark-lite-inner:focus {
+    border-color: #333;
+    color: #333;
+}
+
+.ark-lite-social-icons.color-light ul li .ark-lite-inner, .ark-lite-social-icons.color-dark ul li .ark-lite-inner:hover, .ark-lite-social-icons.color-dark ul li .ark-lite-inner:focus {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #4e4e4e;
+}
+.ark-lite-social-icons.color-dark ul li .ark-lite-inner, .ark-lite-social-icons.color-light ul li .ark-lite-inner:hover, .ark-lite-social-icons.color-light ul li .ark-lite-inner:focus {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF;
+}
+.ark-lite-social-icons.color-colored ul li.social-facebook .ark-lite-inner {
+    border-color: #3b5998;
+}
+.ark-lite-social-icons.color-colored ul li.social-twitter .ark-lite-inner {
+    border-color: #1da1f2;
+}
+.ark-lite-social-icons.color-colored ul li.social-pinterest .ark-lite-inner {
+    border-color: #bd081c;
+}
+.ark-lite-social-icons.color-colored ul li.social-reddit .ark-lite-inner {
+    border-color: #ff4500;
+}
+.ark-lite-social-icons.color-colored ul li.social-mixcloud .ark-lite-inner {
+    border-color: #52aad8;
+}
+.ark-lite-social-icons.color-colored ul li.social-vimeo .ark-lite-inner {
+    border-color: #1ab7ea;
+}
+.ark-lite-social-icons.color-colored ul li.social-steam .ark-lite-inner {
+    border-color: #000000;
+}
+.ark-lite-social-icons.color-colored ul li.social-wp_comments .ark-lite-inner {
+    border-color: #3be8b0;
+}
+.ark-lite-social-icons.color-colored ul li.social-buddypress_groups .ark-lite-inner {
+    border-color: #be3631;
+}
+
+.ark-lite-social-icons.color-colored ul li .ark-lite-inner {
+    color: #FFF;
+}
+.ark-lite-social-icons.color-colored ul li.social-facebook .ark-lite-inner {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.ark-lite-social-icons.color-colored ul li.social-twitter .ark-lite-inner {
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+}
+.ark-lite-social-icons.color-colored ul li.social-pinterest .ark-lite-inner {
+    background-color: #bd081c;
+    border-color: #bd081c;
+}
+.ark-lite-social-icons.color-colored ul li.social-reddit .ark-lite-inner {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+.ark-lite-social-icons.color-colored ul li.social-mixcloud .ark-lite-inner {
+    background-color: #52aad8;
+    border-color: #52aad8;
+}
+.ark-lite-social-icons.color-colored ul li.social-vimeo .ark-lite-inner {
+    background-color: #1ab7ea;
+    border-color: #1ab7ea;
+}
+.ark-lite-social-icons.color-colored ul li.social-dribbble .ark-lite-inner {
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+}
+.ark-lite-social-icons.color-colored ul li.social-steam .ark-lite-inner {
+    background-color: #000000;
+    border-color: #000000;
+}
+.ark-lite-social-icons.color-colored ul li.social-wp_comments .ark-lite-inner {
+    background-color: #3be8b0;
+    border-color: #3be8b0;
+}
+.ark-lite-social-icons.color-colored ul li.social-buddypress_groups .ark-lite-inner {
+    background-color: #be3631;
+    border-color: #be3631;
+}
+
+.ark-lite-social-icons.color-colored ul li .ark-lite-inner:hover, .social-icons.color-colored ul li .ark-lite-inner:focus {
+    opacity: .7;
+}

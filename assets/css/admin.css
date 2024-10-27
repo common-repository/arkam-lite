@@ -1,0 +1,232 @@
+.arkam-lite-outer {
+    display: inline-block;
+    float: none;
+    clear: both;
+}
+.arkam-lite-wrap {
+    max-width: 1000px;
+    float: left;
+    margin-bottom: 30px;
+}
+.arkam-lite-sidebar {
+    float: left;
+    max-width: 320px;
+    margin: 20px;
+}
+.arkam-lite-help {
+    margin-top: 20px;
+}
+.arkam-lite-sidebar h4 {
+    font-size: 1.1em;
+}
+.toplevel_page_arkam-lite .wp-menu-image img {
+    width: 20px;
+    height: 20px;
+    padding-top: 7px !important;
+}
+.arkam-lite-box {
+	margin-bottom: 5px;
+}
+.arkam-lite-box .header {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    padding-left: 40px;
+}
+.widget-arkam-lite-boxes .arkam-lite-box .header {
+    padding: 8px 12px;
+}
+.arkam-lite-box .boxicon {
+	position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 27px;
+    height: 27px;
+    font-size: 13px;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+}
+.widget-arkam-lite-boxes input[type="checkbox"] {
+    margin: 0;
+    margin-right: 5px;
+}
+.arkam-lite-box .boxicon .icon {
+    line-height: 27px;
+}
+.arkam-lite-box .icon-mixcloud:before {
+    width: auto;
+}
+.arkam-lite-box .boxlabel {
+    line-height: 20px;
+    vertical-align: middle;
+}
+.arkam-lite-box .toggle-indicator:after {
+    content: "\f140";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    margin-top: 4px;
+    width: 20px;
+    border-radius: 50%;
+    text-indent: -1px;
+}
+.arkam-lite-box .inside {
+    display: none;
+}
+.arkam-lite-box.expanded .inside {
+    display: block;
+}
+.arkam-lite-box.expanded .toggle-indicator:after {
+	content: "\f142";
+}
+.arkam-lite-box table {
+    width: 100%;
+}
+.arkam-lite-box th, .arkam-lite-box td {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1;
+}
+.arkam-lite-box th {
+    min-width: 120px;
+    width: 200px;
+}
+.arkam-lite-box label {
+    font-weight: normal;
+}
+.arkam-lite-box .text-field {
+    position: relative;
+    width: 100%;
+    margin: 4px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.arkam-lite-box .wp-picker-container {
+	margin-top: 5px;
+}
+.arkam-lite-wrap .cache, .arkam-lite-boxes, .arkam-lite-wrap .backlink {
+    margin-bottom: 20px;
+    vertical-align: middle;
+    line-height: 1;
+}
+.arkam-lite-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.arkam-lite-panel.open {
+    display: block !important;
+    opacity: 1;
+}
+.arkam-lite-panel .panel-dialog {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.arkam-lite-panel .panel-dialog .panel-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.arkam-lite-panel .panel-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    vertical-align: middle;
+    width: 600px;
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    font-size: 16px;
+}
+.arkam-lite-panel .panel-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.arkam-lite-panel .panel-body {
+    position: relative;
+    padding: 15px;
+}
+.arkam-lite-panel .close {
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .3;
+    outline: none;
+}
+.arkam-lite-panel .close:hover {
+    opacity: 1;
+}
+.arkam-lite-panel th {
+    font-weight: normal;
+    width: 150px;
+}
+.arkam-lite-panel table, .arkam-lite-panel tbody, .arkam-lite-panel input {
+    width: 100%;
+}
+.arkam-lite-panel input {
+    margin: 5px 0;
+}
+
+/* TinyMCE */
+.mce-arkam-mce-wrap {
+    max-height: 500px !important;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 50px !important;
+}
+
+/* Alerts */
+.tt-arkam-lite-alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.tt-arkam-lite-alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+.tt-arkam-lite-alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.tt-arkam-lite-alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

@@ -1,0 +1,503 @@
+# Copyright (C) 2018 Themient.com, Asmi Khalil
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arkam Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-03 22:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: class-arkam.php:276
+#, php-format
+msgid ""
+"Thank you for installing Arkam Lite! Please visit the plugin %s page to "
+"configure it."
+msgstr ""
+
+#: class-arkam.php:276
+msgid "settings"
+msgstr ""
+
+#: settings.php:25
+msgid "Facebook"
+msgstr ""
+
+#: settings.php:30
+msgid "Page ID"
+msgstr ""
+
+#: settings.php:38
+msgid "App Access Token"
+msgstr ""
+
+#: settings.php:49 settings.php:108 includes/admin/class-admin.php:264
+msgid "Get Access Token"
+msgstr ""
+
+#: settings.php:58 settings.php:117 settings.php:164 settings.php:203
+#: settings.php:250 settings.php:298 settings.php:344 settings.php:383
+#: settings.php:415 settings.php:439
+msgid "URL"
+msgstr ""
+
+#: settings.php:66 settings.php:125 settings.php:172 settings.php:211
+#: settings.php:258 settings.php:306 settings.php:352 settings.php:391
+#: settings.php:423 settings.php:447
+msgid "Label"
+msgstr ""
+
+#: settings.php:74 settings.php:133 settings.php:180 settings.php:219
+#: settings.php:266 settings.php:314 settings.php:360 settings.php:399
+msgid "Fallback"
+msgstr ""
+
+#: settings.php:84
+msgid "Twitter"
+msgstr ""
+
+#: settings.php:89 settings.php:336
+msgid "Username"
+msgstr ""
+
+#: settings.php:97
+msgid "Access Token (Bearer)"
+msgstr ""
+
+#: settings.php:143
+msgid "Pinterest"
+msgstr ""
+
+#: settings.php:148
+msgid "User Name/ID"
+msgstr ""
+
+#: settings.php:156
+msgid "Access Token"
+msgstr ""
+
+#: settings.php:190
+msgid "Reddit"
+msgstr ""
+
+#: settings.php:195
+msgid "Subreddit Slug"
+msgstr ""
+
+#: settings.php:229
+msgid "Vimeo"
+msgstr ""
+
+#: settings.php:234
+msgid "Channel ID/Name"
+msgstr ""
+
+#: settings.php:242
+msgid "Access Token (Public Only)"
+msgstr ""
+
+#: settings.php:276
+msgid "Dribbble"
+msgstr ""
+
+#: settings.php:281
+msgid "User ID/Name"
+msgstr ""
+
+#: settings.php:325
+msgid ""
+"Dribbble API v1 is deprecated and V2 requires authentication before "
+"requesting anything. So we are now forced to use a hacky method (by "
+"requesting the full page and then parsing its HTML) to fetch followers count "
+"until Dribbble make it possible to fetch it using their new API."
+msgstr ""
+
+#: settings.php:331
+msgid "MixCloud"
+msgstr ""
+
+#: settings.php:370
+msgid "Steam"
+msgstr ""
+
+#: settings.php:375
+msgid "Group Name"
+msgstr ""
+
+#: settings.php:409
+msgid "Comments"
+msgstr ""
+
+#: settings.php:433
+msgid "BuddyPress (Groups)"
+msgstr ""
+
+#: includes/class-counter.php:58
+msgid "K"
+msgstr ""
+
+#: includes/class-counter.php:63
+msgid "M"
+msgstr ""
+
+#: includes/class-counter.php:68
+msgid "B"
+msgstr ""
+
+#: includes/class-counter.php:73
+msgid "T"
+msgstr ""
+
+#: includes/class-counter.php:79
+msgid "."
+msgstr ""
+
+#: includes/class-renderer.php:74
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: includes/class-renderer.php:74
+msgid "Arkam"
+msgstr ""
+
+#: includes/class-renderer.php:156
+msgid "Toggle panel:"
+msgstr ""
+
+#: includes/class-shortcode.php:173 includes/class-widget.php:83
+#: includes/admin/class-admin.php:355
+msgid "Layout"
+msgstr ""
+
+#: includes/class-shortcode.php:176 includes/class-widget.php:85
+#: includes/admin/class-admin.php:356
+msgid "Grid"
+msgstr ""
+
+#: includes/class-shortcode.php:177 includes/class-widget.php:86
+#: includes/admin/class-admin.php:357
+msgid "Mosaic"
+msgstr ""
+
+#: includes/class-shortcode.php:178 includes/class-widget.php:87
+#: includes/admin/class-admin.php:358
+msgid "Block"
+msgstr ""
+
+#: includes/class-shortcode.php:185 includes/admin/class-admin.php:359
+msgid "Spacing"
+msgstr ""
+
+#: includes/class-shortcode.php:188 includes/class-widget.php:95
+#: includes/admin/class-admin.php:360
+msgid "0 Pixels"
+msgstr ""
+
+#: includes/class-shortcode.php:189 includes/class-widget.php:96
+#: includes/admin/class-admin.php:361
+msgid "1 Pixel"
+msgstr ""
+
+#: includes/class-shortcode.php:190 includes/class-widget.php:97
+#: includes/admin/class-admin.php:362
+msgid "2 Pixels"
+msgstr ""
+
+#: includes/class-shortcode.php:191 includes/class-widget.php:98
+#: includes/admin/class-admin.php:363
+msgid "3 Pixels"
+msgstr ""
+
+#: includes/class-shortcode.php:192 includes/class-widget.php:99
+#: includes/admin/class-admin.php:364
+msgid "4 Pixels"
+msgstr ""
+
+#: includes/class-shortcode.php:193 includes/class-widget.php:100
+#: includes/admin/class-admin.php:365
+msgid "5 Pixels"
+msgstr ""
+
+#: includes/class-shortcode.php:200 includes/class-widget.php:106
+#: includes/admin/class-admin.php:366
+msgid "Size"
+msgstr ""
+
+#: includes/class-shortcode.php:203 includes/class-widget.php:108
+#: includes/admin/class-admin.php:368
+msgid "Small"
+msgstr ""
+
+#: includes/class-shortcode.php:204 includes/class-widget.php:109
+#: includes/admin/class-admin.php:367
+msgid "Medium"
+msgstr ""
+
+#: includes/class-shortcode.php:205 includes/class-widget.php:110
+#: includes/admin/class-admin.php:369
+msgid "Large"
+msgstr ""
+
+#: includes/class-shortcode.php:212
+msgid "Design"
+msgstr ""
+
+#: includes/class-shortcode.php:215
+msgid "Flat"
+msgstr ""
+
+#: includes/class-shortcode.php:216
+msgid "Material"
+msgstr ""
+
+#: includes/class-shortcode.php:217
+msgid "3D"
+msgstr ""
+
+#: includes/class-shortcode.php:224
+msgid "Style"
+msgstr ""
+
+#: includes/class-shortcode.php:227
+msgid "Simple"
+msgstr ""
+
+#: includes/class-shortcode.php:228
+msgid "Bordered"
+msgstr ""
+
+#: includes/class-shortcode.php:229
+msgid "Filled"
+msgstr ""
+
+#: includes/class-shortcode.php:236
+msgid "Shape"
+msgstr ""
+
+#: includes/class-shortcode.php:239
+msgid "Square"
+msgstr ""
+
+#: includes/class-shortcode.php:240
+msgid "Rounded"
+msgstr ""
+
+#: includes/class-shortcode.php:247 includes/class-widget.php:116
+#: includes/admin/class-admin.php:370
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/class-shortcode.php:250 includes/class-widget.php:120
+#: includes/admin/class-admin.php:371
+msgid "Colored"
+msgstr ""
+
+#: includes/class-shortcode.php:251 includes/class-widget.php:118
+#: includes/admin/class-admin.php:372
+msgid "Light"
+msgstr ""
+
+#: includes/class-shortcode.php:252 includes/class-widget.php:119
+#: includes/admin/class-admin.php:373
+msgid "Dark"
+msgstr ""
+
+#: includes/class-shortcode.php:259
+msgid "Open links in a new tab?"
+msgstr ""
+
+#: includes/class-shortcode.php:266
+msgid "Add NoFollow Tag?"
+msgstr ""
+
+#: includes/class-shortcode.php:273 includes/admin/class-admin.php:374
+msgid "Extra Class Name"
+msgstr ""
+
+#: includes/class-shortcode.php:275
+msgid ""
+"Use this field to add an extra class name and then refer to it in your css "
+"code."
+msgstr ""
+
+#: includes/class-shortcode.php:280
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-shortcode.php:282
+msgid "Design Options"
+msgstr ""
+
+#: includes/class-shortcode.php:298 includes/class-widget.php:62
+msgid "Arkam Lite: Social Counters"
+msgstr ""
+
+#: includes/class-shortcode.php:300
+msgid "Add social media counters."
+msgstr ""
+
+#: includes/class-widget.php:63
+msgid "Add social widget with counters."
+msgstr ""
+
+#: includes/class-widget.php:78
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget.php:93
+msgid "spacing"
+msgstr ""
+
+#: includes/admin/class-admin.php:57 includes/admin/class-admin.php:58
+#: includes/admin/class-admin.php:347 includes/admin/class-admin.php:352
+msgid "Arkam Lite"
+msgstr ""
+
+#: includes/admin/class-admin.php:78
+msgid "Arkam Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:80
+msgid ""
+"If you change any options here, the plugin cache will be cleared and the "
+"counts will be fetched and cached again on the next page load. So this "
+"process might take a little while to complete depending on the number of "
+"social media channels you have enabled and the number of plugin instances on "
+"your page."
+msgstr ""
+
+#: includes/admin/class-admin.php:93
+msgid "Cache Results for"
+msgstr ""
+
+#: includes/admin/class-admin.php:98
+msgid "1 Minute"
+msgstr ""
+
+#: includes/admin/class-admin.php:99
+msgid "2 Minutes"
+msgstr ""
+
+#: includes/admin/class-admin.php:100
+msgid "5 Minutes"
+msgstr ""
+
+#: includes/admin/class-admin.php:101
+msgid "10 Minutes"
+msgstr ""
+
+#: includes/admin/class-admin.php:102
+msgid "30 Minutes"
+msgstr ""
+
+#: includes/admin/class-admin.php:103
+msgid "1 Hour"
+msgstr ""
+
+#: includes/admin/class-admin.php:104
+msgid "5 Hours"
+msgstr ""
+
+#: includes/admin/class-admin.php:105
+msgid "1 Day"
+msgstr ""
+
+#: includes/admin/class-admin.php:106
+msgid "3 Days"
+msgstr ""
+
+#: includes/admin/class-admin.php:107
+msgid "1 Week"
+msgstr ""
+
+#: includes/admin/class-admin.php:122
+msgid "Support us by displaying \"Powered by Arkam\" link?"
+msgstr ""
+
+#: includes/admin/class-admin.php:142 includes/admin/class-admin.php:144
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-admin.php:143
+#, php-format
+msgid ""
+"Don't forget to read the plugin documentation to get the most out of Arkam "
+"Lite. An online version can be found %s."
+msgstr ""
+
+#: includes/admin/class-admin.php:143
+msgid "here"
+msgstr ""
+
+#: includes/admin/class-admin.php:146
+msgid "Need Help?"
+msgstr ""
+
+#: includes/admin/class-admin.php:147
+#, php-format
+msgid ""
+"We provide support for this plugin through our %s. Post your question in the "
+"right section and we will be happy to assist you."
+msgstr ""
+
+#: includes/admin/class-admin.php:147 includes/admin/class-admin.php:148
+msgid "Support Forum"
+msgstr ""
+
+#: includes/admin/class-admin.php:150
+msgid "Have a moment? Please share your review"
+msgstr ""
+
+#: includes/admin/class-admin.php:151
+#, php-format
+msgid ""
+"We hope you had a great experience, and we are eager to hear your feedback. "
+"Please take a minute and leave your valuable review on this %s."
+msgstr ""
+
+#: includes/admin/class-admin.php:151
+msgid "page"
+msgstr ""
+
+#: includes/admin/class-admin.php:152
+msgid "Leave Your Review"
+msgstr ""
+
+#: includes/admin/class-admin.php:174
+msgid "Sorry, nonce did not verify."
+msgstr ""
+
+#: includes/admin/class-admin.php:179
+msgid "Unauthorized user"
+msgstr ""
+
+#: includes/admin/class-admin.php:237
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/admin/class-admin.php:272
+msgid "App ID"
+msgstr ""
+
+#: includes/admin/class-admin.php:276
+msgid "App Secret"
+msgstr ""
+
+#: includes/admin/class-admin.php:283
+msgid "Generate"
+msgstr ""
+
+#: includes/admin/class-admin.php:353
+msgid "Arkam Lite Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:354
+msgid "An error accured."
+msgstr ""
